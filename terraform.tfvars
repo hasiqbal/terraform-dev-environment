@@ -1,0 +1,11 @@
+cidr               = ["10.111.0.0/16"]
+subnet_cidr        = ["10.111.0.0/24"]
+map_ip             = true
+dns_hostnames      = true
+dns_support        = true
+availability-zones = ["eu-west-2a"]
+my_ip              = [""]
+ami                = ["099720109477"]
+ami-filter         = ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
+keypair            = "~/.ssh/devkey.pub"
+instance           = "t2.micro"
